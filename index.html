@@ -120,7 +120,10 @@
       basemap0.addTo(map);
 
       // Jalan utama
+      map.createPane("pane_JalanUtama");
+      map.getPane("pane_JalanUtama").style.zIndex = 401;
       var jalanutama = L.geoJson(null, {
+        pane: "pane_JalanUtama",
         style: function (feature) {
           return {
             color: "red",
@@ -154,7 +157,10 @@
         jalanutama.addData(data);
       });
 
+      map.createPane("pane_JalanLokal");
+      map.getPane("pane_JalanLokal").style.zIndex = 401;
       var jalanlokal = L.geoJson(null, {
+        pane: "pane_JalanLokal",
         style: function (feature) {
           return {
             color: "red",
@@ -188,7 +194,10 @@
         jalanlokal.addData(data);
       });
 
+      map.createPane("pane_Sungai");
+      map.getPane("pane_Sungai").style.zIndex = 351;
       var sungai = L.geoJson(null, {
+        pane: "pane_Sungai",
         style: function (feature) {
           return {
             color: "#0099ff",
@@ -223,7 +232,10 @@
       });
 
       //Admin kelurahan
+      map.createPane("pane_AdminKelurahan");
+      map.getPane("pane_AdminKelurahan").style.zIndex = 301;
       var adminkelurahan = L.geoJson(null, {
+        pane: "pane_AdminKelurahan",
         style: function (feature) {
           return {
             fillColor: "white",
