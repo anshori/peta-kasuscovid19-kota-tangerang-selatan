@@ -1,10 +1,12 @@
 var map = L.map('map').setView([-6.2956292,106.7083180],12);
+
+var _attribution = '<a href="https://unsorry.net" target="_blank">anshori@2021</a>';
       
 var basemap0 = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | <a href="https://unsorry.net" target="_blank">anshori@2021</a>'
+  attribution: '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | ' + _attribution
 });
 var basemap1 = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-  attribution: 'Tiles &copy; Esri | <a href="https://unsorry.net" target="_blank">anshori@2021</a>'
+  attribution: 'Tiles &copy; Esri | ' + _attribution
 });
 basemap0.addTo(map);
 

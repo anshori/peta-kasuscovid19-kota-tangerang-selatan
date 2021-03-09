@@ -40,7 +40,7 @@
 { "type": "Feature", "properties": { "Kelurahan": "Cirendeu", "Kode": 35, "JumlahODP": 14 }, "geometry": { "type": "Point", "coordinates": [ 106.767176549423581, -6.307002899781011 ] } },
 { "type": "Feature", "properties": { "Kelurahan": "Serpong", "Kode": 36, "JumlahODP": 30 }, "geometry": { "type": "Point", "coordinates": [ 106.664521764783657, -6.319210218636268 ] } },
 { "type": "Feature", "properties": { "Kelurahan": "Kademangan", "Kode": 37, "JumlahODP": 24 }, "geometry": { "type": "Point", "coordinates": [ 106.667352349746324, -6.334670488257134 ] } },
-{ "type": "Feature", "properties": { "Kelurahan": "Kranggan", "Kode": 38, "JumlahODP": 0 }, "geometry": { "type": "Point", "coordinates": [ 106.654570210798184, -6.3412261366326 ] } },
+{ "type": "Feature", "properties": { "Kelurahan": "Kranggan", "Kode": 38, "JumlahODP": "0" }, "geometry": { "type": "Point", "coordinates": [ 106.654570210798184, -6.3412261366326 ] } },
 { "type": "Feature", "properties": { "Kelurahan": "Muncul", "Kode": 39, "JumlahODP": 12 }, "geometry": { "type": "Point", "coordinates": [ 106.663906237387351, -6.350684665732273 ] } },
 { "type": "Feature", "properties": { "Kelurahan": "Setu", "Kode": 40, "JumlahODP": 21 }, "geometry": { "type": "Point", "coordinates": [ 106.678080189651311, -6.34166128293769 ] } },
 { "type": "Feature", "properties": { "Kelurahan": "Ciater", "Kode": 41, "JumlahODP": 17 }, "geometry": { "type": "Point", "coordinates": [ 106.693644935868406, -6.326414192115424 ] } },
